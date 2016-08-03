@@ -18,7 +18,7 @@ see geekforgeek.com also if this like didnot work.
 
 
 
-t = [1, 4, 2, -1, 6 ] # not Jolly jumper sequance
+t = map(int,input().split())#[1, 4, 2, -1, 6 ] # not Jolly jumper sequance
 m = max(t)-1
 print("the max value in the list (max(x)-1):",m)
 jj = "Jolly jumper sequance"
