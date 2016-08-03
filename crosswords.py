@@ -8,6 +8,8 @@ P     m
   o r
  r   a
 P     m
+this is only for odd value strings only.
+even value will be something different...check that out
 
 """
 t = []
