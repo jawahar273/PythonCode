@@ -25,7 +25,7 @@ jj = "Jolly jumper sequance"
 def y():
   for i in range(1,len(t)):
     d = abs(t[i]-t[i-1])
-    print("abs differnt for t[",i,"] and t[",i-1,"]:",i,d)
+    #print("abs differnt for t[",i,"] and t[",i-1,"]:","for loop position:",i,"abs difference:",d) # debuging
     if(d > m):
          print("not a ",end="")
          break
