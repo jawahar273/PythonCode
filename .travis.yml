@@ -2,4 +2,6 @@ language: python
 python:
   - "3.4"
   - "3.5"
-
+script: 
+  number-or-words/crosswords.py
+  number-or-words/jollyjumper.py
