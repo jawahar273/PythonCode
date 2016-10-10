@@ -5,4 +5,5 @@ def run():
   for i in range(n):
      if i % 2 == 0:
         e.append(i)
+run()
 # timeit 100000 loops, best of 3: 3.42 µs per loop
