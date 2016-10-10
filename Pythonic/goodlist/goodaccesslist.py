@@ -4,7 +4,7 @@ def run():
     for i, j in enumerate(r):
        print(r[i]) # or #print(j)
 
-       
+run()
     
 # timeit : 1000 loops, best of 3: 920 µs per loop
 # timeit without print: 1000000 loops, best of 3: 1.8 µs per loop
