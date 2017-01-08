@@ -2,7 +2,7 @@
 to find the smallest +ve number with following condition
 
 e = len(input()) # as (b0)
-1) lenght of may be upto 'n' without negative numbers.
+1) lenght  may be upto 'n' without negative numbers.
 2) if the lenght of string and number string(b1) is equal then print the time  or 
 3) find the current length of b1 check it is equal.
 4) try to continue with recursive function.
