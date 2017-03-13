@@ -4,9 +4,12 @@
 """"
 def sqrt_it(iter):
   return map(lambda x:x**2, iter)
+try:
+  from numpy import arange as range
+except ImportError:
+  pass
 
-import numpy as np
-
-seq = np.arange(10)
+seq = range(10)
+print(sqrt_it(seq))
 for i in sqrt_it(seq):
   print(i)
